@@ -1,7 +1,7 @@
 # Builder LNK Malicious File
 
 
-[![Example POC](./poc.jpg)](./Example.mp4)
+[![Example POC](./poc.jpg)](https://raw.githubusercontent.com/ClickCyber/lnk-builder/main/Example.MP4)
 
 ### Whats is hell LNK ? 
 
