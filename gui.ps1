@@ -1,6 +1,6 @@
+Add-Type -AssemblyName PresentationFramework
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
-Add-Type -AssemblyName PresentationFramework
 
 Write-Host ' ___      _____  ___   __   ___                                          
 |"  |    (\"   \|"  \ |/"| /  ")                                         
