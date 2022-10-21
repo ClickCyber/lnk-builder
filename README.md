@@ -1,9 +1,7 @@
 # Builder LNK Malicious File
 
-## Example POC
 
-
-<vido src="Example.MP4"/>
+[![Example POC](./poc.jpg)](./Example.mp4)
 
 ### Whats is hell LNK ? 
 
